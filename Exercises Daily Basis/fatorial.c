@@ -2,7 +2,7 @@
 
 int fatorial (int n){
 	if (n==0){
-		return 1;
+		return 1;//zero fatorial é um
 	}
 	else{
 		return n* fatorial(n-1);//recursão passando o valor de n-1 para a funcao fatorial
