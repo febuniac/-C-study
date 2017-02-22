@@ -3,7 +3,7 @@
 #define MAX_NUMBER 100
 int soma (int v[], int n){
 	if (n==1){
-		return v[0];
+		return v[0];//caso tenha apenas um elemento a soma dele com nada é ele mesmo
 	}
 	else{
 		return v[n-1] +soma(v, n-1);

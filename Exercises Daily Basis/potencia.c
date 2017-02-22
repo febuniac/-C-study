@@ -2,7 +2,7 @@
 
 int potencia (int base, int expoente){
 	if (expoente==0){
-		return 1;
+		return 1; // expoente elevado à zero é um
 	}
 	else{
 		return base* potencia(base, expoente-1);
